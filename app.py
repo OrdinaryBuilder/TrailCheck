@@ -4,7 +4,7 @@ import time
 from datetime import date, timedelta
 
 # --- 1. PAGE SETUP & TACTICAL CSS ---
-st.set_page_config(page_title="Trekker Matrix", page_icon="🧭", layout="wide")
+st.set_page_config(page_title="TrailCheck", page_icon="🧭", layout="wide")
 
 custom_css = """
 <style>
@@ -68,7 +68,7 @@ max_allowed_date = today + timedelta(days=14)
 
 # --- 3. DASHBOARD HEADER & INPUTS ---
 # --- 3. DASHBOARD HEADER & INPUTS ---
-st.markdown("<h1 style='color: #f39c12; text-transform: uppercase; letter-spacing: 2px;'>EXPEDITION HUB</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='color: #f39c12; text-transform: uppercase; letter-spacing: 2px;'>TRAILCHECK</h1>", unsafe_allow_html=True)
 
 # Wrap inputs and button inside a form so pressing ENTER works instantly
 with st.form(key="search_form"):
